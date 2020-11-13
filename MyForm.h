@@ -1,4 +1,4 @@
-#pragma once
+п»ї#pragma once
 #include <climits>
 #include <vector>
 
@@ -12,7 +12,7 @@ namespace Project19 {
 	using namespace System::Drawing;
 
 	/// <summary>
-	/// Сводка для MyForm
+	/// РЎРІРѕРґРєР° РґР»СЏ MyForm
 	/// </summary>
 	public ref class MyForm : public System::Windows::Forms::Form
 	{
@@ -21,13 +21,13 @@ namespace Project19 {
 		{
 			InitializeComponent();
 			//
-			//TODO: добавьте код конструктора
+			//TODO: РґРѕР±Р°РІСЊС‚Рµ РєРѕРґ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР°
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// РћСЃРІРѕР±РѕРґРёС‚СЊ РІСЃРµ РёСЃРїРѕР»СЊР·СѓРµРјС‹Рµ СЂРµСЃСѓСЂСЃС‹.
 		/// </summary>
 		~MyForm()
 		{
@@ -88,14 +88,14 @@ namespace Project19 {
 
 	private:
 		/// <summary>
-		/// Обязательная переменная конструктора.
+		/// РћР±СЏР·Р°С‚РµР»СЊРЅР°СЏ РїРµСЂРµРјРµРЅРЅР°СЏ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР°.
 		/// </summary>
 
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
+		/// РўСЂРµР±СѓРµРјС‹Р№ РјРµС‚РѕРґ РґР»СЏ РїРѕРґРґРµСЂР¶РєРё РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР° вЂ” РЅРµ РёР·РјРµРЅСЏР№С‚Рµ 
+		/// СЃРѕРґРµСЂР¶РёРјРѕРµ СЌС‚РѕРіРѕ РјРµС‚РѕРґР° СЃ РїРѕРјРѕС‰СЊСЋ СЂРµРґР°РєС‚РѕСЂР° РєРѕРґР°.
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -154,7 +154,7 @@ namespace Project19 {
 			this->btnAddStringMatrix->Name = L"btnAddStringMatrix";
 			this->btnAddStringMatrix->Size = System::Drawing::Size(112, 23);
 			this->btnAddStringMatrix->TabIndex = 1;
-			this->btnAddStringMatrix->Text = L"Добавить строку";
+			this->btnAddStringMatrix->Text = L"Р”РѕР±Р°РІРёС‚СЊ СЃС‚СЂРѕРєСѓ";
 			this->btnAddStringMatrix->UseVisualStyleBackColor = true;
 			this->btnAddStringMatrix->Click += gcnew System::EventHandler(this, &MyForm::btnAddStringMatrix_Click);
 			// 
@@ -164,7 +164,7 @@ namespace Project19 {
 			this->btnAddColumnMatrix->Name = L"btnAddColumnMatrix";
 			this->btnAddColumnMatrix->Size = System::Drawing::Size(112, 23);
 			this->btnAddColumnMatrix->TabIndex = 2;
-			this->btnAddColumnMatrix->Text = L"Добавить столбец";
+			this->btnAddColumnMatrix->Text = L"Р”РѕР±Р°РІРёС‚СЊ СЃС‚РѕР»Р±РµС†";
 			this->btnAddColumnMatrix->UseVisualStyleBackColor = true;
 			this->btnAddColumnMatrix->Click += gcnew System::EventHandler(this, &MyForm::btnAddColumnMatrix_Click);
 			// 
@@ -174,7 +174,7 @@ namespace Project19 {
 			this->btnRemoveStringMatrix->Name = L"btnRemoveStringMatrix";
 			this->btnRemoveStringMatrix->Size = System::Drawing::Size(112, 23);
 			this->btnRemoveStringMatrix->TabIndex = 3;
-			this->btnRemoveStringMatrix->Text = L"Удалить строку";
+			this->btnRemoveStringMatrix->Text = L"РЈРґР°Р»РёС‚СЊ СЃС‚СЂРѕРєСѓ";
 			this->btnRemoveStringMatrix->UseVisualStyleBackColor = true;
 			this->btnRemoveStringMatrix->Click += gcnew System::EventHandler(this, &MyForm::btnRemoveStringMatrix_Click);
 			// 
@@ -184,7 +184,7 @@ namespace Project19 {
 			this->btnRemoveColumnMatrix->Name = L"btnRemoveColumnMatrix";
 			this->btnRemoveColumnMatrix->Size = System::Drawing::Size(112, 23);
 			this->btnRemoveColumnMatrix->TabIndex = 4;
-			this->btnRemoveColumnMatrix->Text = L"Удалить столбец";
+			this->btnRemoveColumnMatrix->Text = L"РЈРґР°Р»РёС‚СЊ СЃС‚РѕР»Р±РµС†";
 			this->btnRemoveColumnMatrix->UseVisualStyleBackColor = true;
 			this->btnRemoveColumnMatrix->Click += gcnew System::EventHandler(this, &MyForm::btnRemoveColumnMatrix_Click);
 			// 
@@ -202,7 +202,7 @@ namespace Project19 {
 			this->btnRemoveColumnVector->Name = L"btnRemoveColumnVector";
 			this->btnRemoveColumnVector->Size = System::Drawing::Size(112, 23);
 			this->btnRemoveColumnVector->TabIndex = 9;
-			this->btnRemoveColumnVector->Text = L"Удалить столбец";
+			this->btnRemoveColumnVector->Text = L"РЈРґР°Р»РёС‚СЊ СЃС‚РѕР»Р±РµС†";
 			this->btnRemoveColumnVector->UseVisualStyleBackColor = true;
 			this->btnRemoveColumnVector->Click += gcnew System::EventHandler(this, &MyForm::btnRemoveColumnVector_Click);
 			// 
@@ -212,7 +212,7 @@ namespace Project19 {
 			this->btnRemoveStringVector->Name = L"btnRemoveStringVector";
 			this->btnRemoveStringVector->Size = System::Drawing::Size(112, 23);
 			this->btnRemoveStringVector->TabIndex = 8;
-			this->btnRemoveStringVector->Text = L"Удалить строку";
+			this->btnRemoveStringVector->Text = L"РЈРґР°Р»РёС‚СЊ СЃС‚СЂРѕРєСѓ";
 			this->btnRemoveStringVector->UseVisualStyleBackColor = true;
 			this->btnRemoveStringVector->Click += gcnew System::EventHandler(this, &MyForm::btnRemoveStringVector_Click);
 			// 
@@ -222,7 +222,7 @@ namespace Project19 {
 			this->btnAddColumnVector->Name = L"btnAddColumnVector";
 			this->btnAddColumnVector->Size = System::Drawing::Size(112, 23);
 			this->btnAddColumnVector->TabIndex = 7;
-			this->btnAddColumnVector->Text = L"Добавить столбец";
+			this->btnAddColumnVector->Text = L"Р”РѕР±Р°РІРёС‚СЊ СЃС‚РѕР»Р±РµС†";
 			this->btnAddColumnVector->UseVisualStyleBackColor = true;
 			this->btnAddColumnVector->Click += gcnew System::EventHandler(this, &MyForm::btnAddColumnVector_Click);
 			// 
@@ -232,7 +232,7 @@ namespace Project19 {
 			this->btnAddSrtingVector->Name = L"btnAddSrtingVector";
 			this->btnAddSrtingVector->Size = System::Drawing::Size(112, 23);
 			this->btnAddSrtingVector->TabIndex = 6;
-			this->btnAddSrtingVector->Text = L"Добавить строку";
+			this->btnAddSrtingVector->Text = L"Р”РѕР±Р°РІРёС‚СЊ СЃС‚СЂРѕРєСѓ";
 			this->btnAddSrtingVector->UseVisualStyleBackColor = true;
 			this->btnAddSrtingVector->Click += gcnew System::EventHandler(this, &MyForm::btnAddSrtingVector_Click);
 			// 
@@ -242,7 +242,7 @@ namespace Project19 {
 			this->btnMultNumber->Name = L"btnMultNumber";
 			this->btnMultNumber->Size = System::Drawing::Size(112, 35);
 			this->btnMultNumber->TabIndex = 10;
-			this->btnMultNumber->Text = L"Умножить на число";
+			this->btnMultNumber->Text = L"РЈРјРЅРѕР¶РёС‚СЊ РЅР° С‡РёСЃР»Рѕ";
 			this->btnMultNumber->UseVisualStyleBackColor = true;
 			this->btnMultNumber->Click += gcnew System::EventHandler(this, &MyForm::btnMultNumber_Click);
 			// 
@@ -260,7 +260,7 @@ namespace Project19 {
 			this->lblNumber->Name = L"lblNumber";
 			this->lblNumber->Size = System::Drawing::Size(48, 13);
 			this->lblNumber->TabIndex = 12;
-			this->lblNumber->Text = L"Число =";
+			this->lblNumber->Text = L"Р§РёСЃР»Рѕ =";
 			// 
 			// errorProviderNumber
 			// 
@@ -272,7 +272,7 @@ namespace Project19 {
 			this->btnMultVector->Name = L"btnMultVector";
 			this->btnMultVector->Size = System::Drawing::Size(240, 38);
 			this->btnMultVector->TabIndex = 13;
-			this->btnMultVector->Text = L"Умножить на вектор/матрицу";
+			this->btnMultVector->Text = L"РЈРјРЅРѕР¶РёС‚СЊ РЅР° РІРµРєС‚РѕСЂ/РјР°С‚СЂРёС†Сѓ";
 			this->btnMultVector->UseVisualStyleBackColor = true;
 			this->btnMultVector->Click += gcnew System::EventHandler(this, &MyForm::btnMultVector_Click);
 			// 
@@ -290,7 +290,7 @@ namespace Project19 {
 			this->btnRemoveAll->Name = L"btnRemoveAll";
 			this->btnRemoveAll->Size = System::Drawing::Size(75, 23);
 			this->btnRemoveAll->TabIndex = 15;
-			this->btnRemoveAll->Text = L"Очистить";
+			this->btnRemoveAll->Text = L"РћС‡РёСЃС‚РёС‚СЊ";
 			this->btnRemoveAll->UseVisualStyleBackColor = true;
 			this->btnRemoveAll->Click += gcnew System::EventHandler(this, &MyForm::btnRemoveAll_Click);
 			// 
@@ -300,7 +300,7 @@ namespace Project19 {
 			this->btnPlus->Name = L"btnPlus";
 			this->btnPlus->Size = System::Drawing::Size(240, 23);
 			this->btnPlus->TabIndex = 16;
-			this->btnPlus->Text = L"Сложить матрицы";
+			this->btnPlus->Text = L"РЎР»РѕР¶РёС‚СЊ РјР°С‚СЂРёС†С‹";
 			this->btnPlus->UseVisualStyleBackColor = true;
 			this->btnPlus->Click += gcnew System::EventHandler(this, &MyForm::btnPlus_Click);
 			// 
@@ -310,7 +310,7 @@ namespace Project19 {
 			this->btnMinus->Name = L"btnMinus";
 			this->btnMinus->Size = System::Drawing::Size(240, 23);
 			this->btnMinus->TabIndex = 17;
-			this->btnMinus->Text = L"Вычесть матрицы";
+			this->btnMinus->Text = L"Р’С‹С‡РµСЃС‚СЊ РјР°С‚СЂРёС†С‹";
 			this->btnMinus->UseVisualStyleBackColor = true;
 			this->btnMinus->Click += gcnew System::EventHandler(this, &MyForm::btnMinus_Click);
 			// 
@@ -320,7 +320,7 @@ namespace Project19 {
 			this->btnScalar->Name = L"btnScalar";
 			this->btnScalar->Size = System::Drawing::Size(240, 29);
 			this->btnScalar->TabIndex = 18;
-			this->btnScalar->Text = L"Скалярное произведение векторов";
+			this->btnScalar->Text = L"РЎРєР°Р»СЏСЂРЅРѕРµ РїСЂРѕРёР·РІРµРґРµРЅРёРµ РІРµРєС‚РѕСЂРѕРІ";
 			this->btnScalar->UseVisualStyleBackColor = true;
 			this->btnScalar->Click += gcnew System::EventHandler(this, &MyForm::btnScalar_Click);
 			// 
@@ -339,7 +339,7 @@ namespace Project19 {
 			this->lblScal->Name = L"lblScal";
 			this->lblScal->Size = System::Drawing::Size(146, 13);
 			this->lblScal->TabIndex = 20;
-			this->lblScal->Text = L"Скалярное произведение =";
+			this->lblScal->Text = L"РЎРєР°Р»СЏСЂРЅРѕРµ РїСЂРѕРёР·РІРµРґРµРЅРёРµ =";
 			// 
 			// btnVector
 			// 
@@ -347,7 +347,7 @@ namespace Project19 {
 			this->btnVector->Name = L"btnVector";
 			this->btnVector->Size = System::Drawing::Size(240, 23);
 			this->btnVector->TabIndex = 21;
-			this->btnVector->Text = L"Векторное произведение";
+			this->btnVector->Text = L"Р’РµРєС‚РѕСЂРЅРѕРµ РїСЂРѕРёР·РІРµРґРµРЅРёРµ";
 			this->btnVector->UseVisualStyleBackColor = true;
 			this->btnVector->Click += gcnew System::EventHandler(this, &MyForm::btnVector_Click);
 			// 
@@ -357,7 +357,7 @@ namespace Project19 {
 			this->btnTrans->Name = L"btnTrans";
 			this->btnTrans->Size = System::Drawing::Size(240, 23);
 			this->btnTrans->TabIndex = 24;
-			this->btnTrans->Text = L"Транспонировать матрицу";
+			this->btnTrans->Text = L"РўСЂР°РЅСЃРїРѕРЅРёСЂРѕРІР°С‚СЊ РјР°С‚СЂРёС†Сѓ";
 			this->btnTrans->UseVisualStyleBackColor = true;
 			this->btnTrans->Click += gcnew System::EventHandler(this, &MyForm::btnTrans_Click);
 			// 
@@ -367,7 +367,7 @@ namespace Project19 {
 			this->btnOpred->Name = L"btnOpred";
 			this->btnOpred->Size = System::Drawing::Size(112, 35);
 			this->btnOpred->TabIndex = 25;
-			this->btnOpred->Text = L"Найти определитель";
+			this->btnOpred->Text = L"РќР°Р№С‚Рё РѕРїСЂРµРґРµР»РёС‚РµР»СЊ";
 			this->btnOpred->UseVisualStyleBackColor = true;
 			this->btnOpred->Click += gcnew System::EventHandler(this, &MyForm::btnOpred_Click);
 			// 
@@ -378,7 +378,7 @@ namespace Project19 {
 			this->lblOpredel->Name = L"lblOpredel";
 			this->lblOpredel->Size = System::Drawing::Size(60, 13);
 			this->lblOpredel->TabIndex = 26;
-			this->lblOpredel->Text = L"Определ =";
+			this->lblOpredel->Text = L"РћРїСЂРµРґРµР» =";
 			// 
 			// txtOutputOpr
 			// 
@@ -394,7 +394,7 @@ namespace Project19 {
 			this->btnRank->Name = L"btnRank";
 			this->btnRank->Size = System::Drawing::Size(112, 43);
 			this->btnRank->TabIndex = 28;
-			this->btnRank->Text = L"Найти ранг матрицы";
+			this->btnRank->Text = L"РќР°Р№С‚Рё СЂР°РЅРі РјР°С‚СЂРёС†С‹";
 			this->btnRank->UseVisualStyleBackColor = true;
 			this->btnRank->Click += gcnew System::EventHandler(this, &MyForm::btnRank_Click);
 			// 
@@ -405,7 +405,7 @@ namespace Project19 {
 			this->lblRank->Name = L"lblRank";
 			this->lblRank->Size = System::Drawing::Size(40, 13);
 			this->lblRank->TabIndex = 29;
-			this->lblRank->Text = L"Ранг =";
+			this->lblRank->Text = L"Р Р°РЅРі =";
 			// 
 			// txtOutputRank
 			// 
@@ -422,8 +422,8 @@ namespace Project19 {
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(496, 13);
 			this->label1->TabIndex = 31;
-			this->label1->Text = L"Примечание: вектор создается аналогично матрице с помощью кнопок добавления и уда"
-				L"ления";
+			this->label1->Text = L"РџСЂРёРјРµС‡Р°РЅРёРµ: РІРµРєС‚РѕСЂ СЃРѕР·РґР°РµС‚СЃСЏ Р°РЅР°Р»РѕРіРёС‡РЅРѕ РјР°С‚СЂРёС†Рµ СЃ РїРѕРјРѕС‰СЊСЋ РєРЅРѕРїРѕРє РґРѕР±Р°РІР»РµРЅРёСЏ Рё СѓРґР°"
+				L"Р»РµРЅРёСЏ";
 			// 
 			// label2
 			// 
@@ -432,7 +432,7 @@ namespace Project19 {
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(59, 13);
 			this->label2->TabIndex = 32;
-			this->label2->Text = L"Результат";
+			this->label2->Text = L"Р РµР·СѓР»СЊС‚Р°С‚";
 			// 
 			// label3
 			// 
@@ -441,7 +441,7 @@ namespace Project19 {
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(107, 13);
 			this->label3->TabIndex = 33;
-			this->label3->Text = L"Матрица/Вектор - 1";
+			this->label3->Text = L"РњР°С‚СЂРёС†Р°/Р’РµРєС‚РѕСЂ - 1";
 			// 
 			// label4
 			// 
@@ -450,7 +450,7 @@ namespace Project19 {
 			this->label4->Name = L"label4";
 			this->label4->Size = System::Drawing::Size(107, 13);
 			this->label4->TabIndex = 34;
-			this->label4->Text = L"Матрица/Вектор - 2";
+			this->label4->Text = L"РњР°С‚СЂРёС†Р°/Р’РµРєС‚РѕСЂ - 2";
 			// 
 			// MyForm
 			// 
@@ -492,7 +492,7 @@ namespace Project19 {
 			this->Controls->Add(this->grdMatrix);
 			this->MaximizeBox = false;
 			this->Name = L"MyForm";
-			this->Text = L"Матричный калькулятор";
+			this->Text = L"РњР°С‚СЂРёС‡РЅС‹Р№ РєР°Р»СЊРєСѓР»СЏС‚РѕСЂ";
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->grdMatrix))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->grdVector))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->errorProviderNumber))->EndInit();
@@ -502,28 +502,28 @@ namespace Project19 {
 
 		}
 #pragma endregion
-			//добавить строчку в левую таблицу
+			//РґРѕР±Р°РІРёС‚СЊ СЃС‚СЂРѕС‡РєСѓ РІ Р»РµРІСѓСЋ С‚Р°Р±Р»РёС†Сѓ
 	private: System::Void btnAddStringMatrix_Click(System::Object^ sender, System::EventArgs^ e) 
 	{
-		//на случай, если столбцов нет совсем
+		//РЅР° СЃР»СѓС‡Р°Р№, РµСЃР»Рё СЃС‚РѕР»Р±С†РѕРІ РЅРµС‚ СЃРѕРІСЃРµРј
 		try
 		{
 			this->grdMatrix->Rows->Add(1);
 		}
 		catch (...)
 		{
-			MessageBox::Show("Сначала добавьте столбец");
+			MessageBox::Show("РЎРЅР°С‡Р°Р»Р° РґРѕР±Р°РІСЊС‚Рµ СЃС‚РѕР»Р±РµС†");
 		}
 	}
 
-		   //добавить столбец в левую таблицу
+		   //РґРѕР±Р°РІРёС‚СЊ СЃС‚РѕР»Р±РµС† РІ Р»РµРІСѓСЋ С‚Р°Р±Р»РёС†Сѓ
 	private: System::Void btnAddColumnMatrix_Click(System::Object^ sender, System::EventArgs^ e) 
 	{
 		DataGridViewTextBoxColumn^ i1 = gcnew DataGridViewTextBoxColumn();
 		grdMatrix->Columns->Add(i1);
 	}
 
-		   //удалить строчку в левой таюлице
+		   //СѓРґР°Р»РёС‚СЊ СЃС‚СЂРѕС‡РєСѓ РІ Р»РµРІРѕР№ С‚Р°СЋР»РёС†Рµ
 	private: System::Void btnRemoveStringMatrix_Click(System::Object^ sender, System::EventArgs^ e) 
 	{
 		try
@@ -536,17 +536,17 @@ namespace Project19 {
 		}
 		catch (...)
 		{
-			MessageBox::Show("Эту строку нельзя удалить!");
+			MessageBox::Show("Р­С‚Сѓ СЃС‚СЂРѕРєСѓ РЅРµР»СЊР·СЏ СѓРґР°Р»РёС‚СЊ!");
 		}
 	}
 
-		   //удалить столбец в левой таблице
+		   //СѓРґР°Р»РёС‚СЊ СЃС‚РѕР»Р±РµС† РІ Р»РµРІРѕР№ С‚Р°Р±Р»РёС†Рµ
 	private: System::Void btnRemoveColumnMatrix_Click(System::Object^ sender, System::EventArgs^ e) 
 	{
-		//если нет столбцов
+		//РµСЃР»Рё РЅРµС‚ СЃС‚РѕР»Р±С†РѕРІ
 		if (!grdMatrix->ColumnCount)
 		{
-			MessageBox::Show("В таблице нет столбцов!");
+			MessageBox::Show("Р’ С‚Р°Р±Р»РёС†Рµ РЅРµС‚ СЃС‚РѕР»Р±С†РѕРІ!");
 			return;
 		}
 
@@ -561,7 +561,7 @@ namespace Project19 {
 				}
 				catch (...)
 				{
-					MessageBox::Show("Не могу удалить столбец с индексом ");
+					MessageBox::Show("РќРµ РјРѕРіСѓ СѓРґР°Р»РёС‚СЊ СЃС‚РѕР»Р±РµС† СЃ РёРЅРґРµРєСЃРѕРј ");
 				}
 			}
 		}
@@ -585,35 +585,35 @@ namespace Project19 {
 				}
 				catch (...)
 				{
-					MessageBox::Show("Не могу удалить столбец с индексом ");
+					MessageBox::Show("РќРµ РјРѕРіСѓ СѓРґР°Р»РёС‚СЊ СЃС‚РѕР»Р±РµС† СЃ РёРЅРґРµРєСЃРѕРј ");
 				}
 			}
-			else MessageBox::Show("Выберите столбцы для удаления");
+			else MessageBox::Show("Р’С‹Р±РµСЂРёС‚Рµ СЃС‚РѕР»Р±С†С‹ РґР»СЏ СѓРґР°Р»РµРЅРёСЏ");
 		}
 	}
 
-		   //добавить строку в центральную таблицу
+		   //РґРѕР±Р°РІРёС‚СЊ СЃС‚СЂРѕРєСѓ РІ С†РµРЅС‚СЂР°Р»СЊРЅСѓСЋ С‚Р°Р±Р»РёС†Сѓ
 	private: System::Void btnAddSrtingVector_Click(System::Object^ sender, System::EventArgs^ e) 
 	{
-		//на случай, если столбцов нет совсем
+		//РЅР° СЃР»СѓС‡Р°Р№, РµСЃР»Рё СЃС‚РѕР»Р±С†РѕРІ РЅРµС‚ СЃРѕРІСЃРµРј
 		try
 		{
 			this->grdVector->Rows->Add(1);
 		}
 		catch (...)
 		{
-			MessageBox::Show("Сначала добавьте столбец");
+			MessageBox::Show("РЎРЅР°С‡Р°Р»Р° РґРѕР±Р°РІСЊС‚Рµ СЃС‚РѕР»Р±РµС†");
 		}
 	}
 
-		   //добавить столбец в центральную таблицу
+		   //РґРѕР±Р°РІРёС‚СЊ СЃС‚РѕР»Р±РµС† РІ С†РµРЅС‚СЂР°Р»СЊРЅСѓСЋ С‚Р°Р±Р»РёС†Сѓ
 	private: System::Void btnAddColumnVector_Click(System::Object^ sender, System::EventArgs^ e) 
 	{
 		DataGridViewTextBoxColumn^ i1 = gcnew DataGridViewTextBoxColumn();
 		grdVector->Columns->Add(i1);
 	}
 
-		   //удалить строчку в центральной таблице
+		   //СѓРґР°Р»РёС‚СЊ СЃС‚СЂРѕС‡РєСѓ РІ С†РµРЅС‚СЂР°Р»СЊРЅРѕР№ С‚Р°Р±Р»РёС†Рµ
 	private: System::Void btnRemoveStringVector_Click(System::Object^ sender, System::EventArgs^ e) 
 	{
 		try
@@ -626,17 +626,17 @@ namespace Project19 {
 		}
 		catch (...)
 		{
-			MessageBox::Show("Эту строку нельзя удалить!");
+			MessageBox::Show("Р­С‚Сѓ СЃС‚СЂРѕРєСѓ РЅРµР»СЊР·СЏ СѓРґР°Р»РёС‚СЊ!");
 		}
 	}
 
-		   //удалить столбец в центральной таблице
+		   //СѓРґР°Р»РёС‚СЊ СЃС‚РѕР»Р±РµС† РІ С†РµРЅС‚СЂР°Р»СЊРЅРѕР№ С‚Р°Р±Р»РёС†Рµ
 	private: System::Void btnRemoveColumnVector_Click(System::Object^ sender, System::EventArgs^ e) 
 	{
-		//если нет столбцов
+		//РµСЃР»Рё РЅРµС‚ СЃС‚РѕР»Р±С†РѕРІ
 		if (!grdVector->ColumnCount)
 		{
-			MessageBox::Show("В таблице нет столбцов!");
+			MessageBox::Show("Р’ С‚Р°Р±Р»РёС†Рµ РЅРµС‚ СЃС‚РѕР»Р±С†РѕРІ!");
 			return;
 		}
 
@@ -651,7 +651,7 @@ namespace Project19 {
 				}
 				catch (...)
 				{
-					MessageBox::Show("Не могу удалить столбец");
+					MessageBox::Show("РќРµ РјРѕРіСѓ СѓРґР°Р»РёС‚СЊ СЃС‚РѕР»Р±РµС†");
 				}
 			}
 		}
@@ -676,60 +676,60 @@ namespace Project19 {
 				}
 				catch (...)
 				{
-					MessageBox::Show("Не могу удалить столбец");
+					MessageBox::Show("РќРµ РјРѕРіСѓ СѓРґР°Р»РёС‚СЊ СЃС‚РѕР»Р±РµС†");
 				}
 			}
-			else MessageBox::Show("Выберите столбцы для удаления");
+			else MessageBox::Show("Р’С‹Р±РµСЂРёС‚Рµ СЃС‚РѕР»Р±С†С‹ РґР»СЏ СѓРґР°Р»РµРЅРёСЏ");
 		}
 	}
 
-		   //Умножить на число
+		   //РЈРјРЅРѕР¶РёС‚СЊ РЅР° С‡РёСЃР»Рѕ
 	private: System::Void btnMultNumber_Click(System::Object^ sender, System::EventArgs^ e) 
 	{
-		long long Number;	//вводимое число
-		bool resultX = Int64::TryParse(this->txtNumber->Text, Number); //переводим строку из TextBox в число
-		if (!resultX)		//ввели не число
-			errorProviderNumber->SetError(txtNumber, "не целое число");
-		else				//ввели число
+		long long Number;	//РІРІРѕРґРёРјРѕРµ С‡РёСЃР»Рѕ
+		bool resultX = Int64::TryParse(this->txtNumber->Text, Number); //РїРµСЂРµРІРѕРґРёРј СЃС‚СЂРѕРєСѓ РёР· TextBox РІ С‡РёСЃР»Рѕ
+		if (!resultX)		//РІРІРµР»Рё РЅРµ С‡РёСЃР»Рѕ
+			errorProviderNumber->SetError(txtNumber, "РЅРµ С†РµР»РѕРµ С‡РёСЃР»Рѕ");
+		else				//РІРІРµР»Рё С‡РёСЃР»Рѕ
 		{
-			int S = 0;		//переменная для изменения значений
-			int ColumnNumber = 0; //Столбец
-							//если цифры
+			int S = 0;		//РїРµСЂРµРјРµРЅРЅР°СЏ РґР»СЏ РёР·РјРµРЅРµРЅРёСЏ Р·РЅР°С‡РµРЅРёР№
+			int ColumnNumber = 0; //РЎС‚РѕР»Р±РµС†
+							//РµСЃР»Рё С†РёС„СЂС‹
 			try
 			{
-				for (int i1 = 0; i1 < this->grdMatrix->RowCount-1; i1++) //всегда RowCount-1, 
-										//потому что автоматически приписывается след строка
+				for (int i1 = 0; i1 < this->grdMatrix->RowCount-1; i1++) //РІСЃРµРіРґР° RowCount-1, 
+										//РїРѕС‚РѕРјСѓ С‡С‚Рѕ Р°РІС‚РѕРјР°С‚РёС‡РµСЃРєРё РїСЂРёРїРёСЃС‹РІР°РµС‚СЃСЏ СЃР»РµРґ СЃС‚СЂРѕРєР°
 				{
 					for (int j1 = 0; j1 < this->grdMatrix->ColumnCount; j1++)
 					{
-						S = Convert::ToInt32(grdMatrix->Rows[i1]->Cells[j1]->Value); //получаем значение элемента таблицы
-						S *= Number; //умножаем на нужное число
-						grdMatrix->Rows[i1]->Cells[j1]->Value = Convert::ToInt32(S); //перезаписываем новое значение
+						S = Convert::ToInt32(grdMatrix->Rows[i1]->Cells[j1]->Value); //РїРѕР»СѓС‡Р°РµРј Р·РЅР°С‡РµРЅРёРµ СЌР»РµРјРµРЅС‚Р° С‚Р°Р±Р»РёС†С‹
+						S *= Number; //СѓРјРЅРѕР¶Р°РµРј РЅР° РЅСѓР¶РЅРѕРµ С‡РёСЃР»Рѕ
+						grdMatrix->Rows[i1]->Cells[j1]->Value = Convert::ToInt32(S); //РїРµСЂРµР·Р°РїРёСЃС‹РІР°РµРј РЅРѕРІРѕРµ Р·РЅР°С‡РµРЅРёРµ
 					}
 				}
 
 			}
-			//если не цифры
+			//РµСЃР»Рё РЅРµ С†РёС„СЂС‹
 			catch (Exception^ ex)
 			{
-				MessageBox::Show("В таблицу неправильно введены данные//введены не цифры!!");
+				MessageBox::Show("Р’ С‚Р°Р±Р»РёС†Сѓ РЅРµРїСЂР°РІРёР»СЊРЅРѕ РІРІРµРґРµРЅС‹ РґР°РЅРЅС‹Рµ//РІРІРµРґРµРЅС‹ РЅРµ С†РёС„СЂС‹!!");
 			}
 		}
 	}
 
-		   //метод для заполнения правой (результирующей) матрицы
+		   //РјРµС‚РѕРґ РґР»СЏ Р·Р°РїРѕР»РЅРµРЅРёСЏ РїСЂР°РІРѕР№ (СЂРµР·СѓР»СЊС‚РёСЂСѓСЋС‰РµР№) РјР°С‚СЂРёС†С‹
 		   void addAll() 
 		   {
-			   int indexColumn = 0; //индекс столбца
-			   int indexRow = 0;    //идекс строки
-			   //заполняем таким же количеством столбцов, как у центральной таблицы
+			   int indexColumn = 0; //РёРЅРґРµРєСЃ СЃС‚РѕР»Р±С†Р°
+			   int indexRow = 0;    //РёРґРµРєСЃ СЃС‚СЂРѕРєРё
+			   //Р·Р°РїРѕР»РЅСЏРµРј С‚Р°РєРёРј Р¶Рµ РєРѕР»РёС‡РµСЃС‚РІРѕРј СЃС‚РѕР»Р±С†РѕРІ, РєР°Рє Сѓ С†РµРЅС‚СЂР°Р»СЊРЅРѕР№ С‚Р°Р±Р»РёС†С‹
 			   while (indexColumn < grdVector->ColumnCount)
 			   {
 				   DataGridViewTextBoxColumn^ i = gcnew DataGridViewTextBoxColumn();
 				   grdResult->Columns->Add(i);
 				   indexColumn++;
 			   }
-			   //заполняем таким же количеством строк, как у левой таблицы
+			   //Р·Р°РїРѕР»РЅСЏРµРј С‚Р°РєРёРј Р¶Рµ РєРѕР»РёС‡РµСЃС‚РІРѕРј СЃС‚СЂРѕРє, РєР°Рє Сѓ Р»РµРІРѕР№ С‚Р°Р±Р»РёС†С‹
 			   while (indexRow < grdMatrix->RowCount-2)
 			   {
 				   this->grdResult->Rows->Add(1);
@@ -737,25 +737,25 @@ namespace Project19 {
 			   }
 		   }
 
-		   //Операция умножения двух матриц выполнима только в том случае, 
-		   //если число столбцов в первом сомножителе равно числу строк во втором; 
+		   //РћРїРµСЂР°С†РёСЏ СѓРјРЅРѕР¶РµРЅРёСЏ РґРІСѓС… РјР°С‚СЂРёС† РІС‹РїРѕР»РЅРёРјР° С‚РѕР»СЊРєРѕ РІ С‚РѕРј СЃР»СѓС‡Р°Рµ, 
+		   //РµСЃР»Рё С‡РёСЃР»Рѕ СЃС‚РѕР»Р±С†РѕРІ РІ РїРµСЂРІРѕРј СЃРѕРјРЅРѕР¶РёС‚РµР»Рµ СЂР°РІРЅРѕ С‡РёСЃР»Сѓ СЃС‚СЂРѕРє РІРѕ РІС‚РѕСЂРѕРј; 
 
-		   //умножение на вектор/матрицу
+		   //СѓРјРЅРѕР¶РµРЅРёРµ РЅР° РІРµРєС‚РѕСЂ/РјР°С‚СЂРёС†Сѓ
 	private: System::Void btnMultVector_Click(System::Object^ sender, System::EventArgs^ e) 
 	{
-		//проверим очищена ли таблица результатов
+		//РїСЂРѕРІРµСЂРёРј РѕС‡РёС‰РµРЅР° Р»Рё С‚Р°Р±Р»РёС†Р° СЂРµР·СѓР»СЊС‚Р°С‚РѕРІ
 		if (grdResult->ColumnCount == 0)
 		{
-			//если число столбцов в первом сомножителе равно числу строк во втором 
+			//РµСЃР»Рё С‡РёСЃР»Рѕ СЃС‚РѕР»Р±С†РѕРІ РІ РїРµСЂРІРѕРј СЃРѕРјРЅРѕР¶РёС‚РµР»Рµ СЂР°РІРЅРѕ С‡РёСЃР»Сѓ СЃС‚СЂРѕРє РІРѕ РІС‚РѕСЂРѕРј 
 			if (grdMatrix->ColumnCount == grdVector->RowCount - 1)
 			{
-				addAll(); //создаем результирующую таблицу
+				addAll(); //СЃРѕР·РґР°РµРј СЂРµР·СѓР»СЊС‚РёСЂСѓСЋС‰СѓСЋ С‚Р°Р±Р»РёС†Сѓ
 				int S1 = 0;
 				int S2 = 0;
-				//если цифры
+				//РµСЃР»Рё С†РёС„СЂС‹
 				try
 				{
-					//заполняем результирующую таблицу
+					//Р·Р°РїРѕР»РЅСЏРµРј СЂРµР·СѓР»СЊС‚РёСЂСѓСЋС‰СѓСЋ С‚Р°Р±Р»РёС†Сѓ
 					for (int ires = 0; ires < this->grdResult->RowCount; ires++)
 					{
 						for (int jres = 0; jres < this->grdResult->ColumnCount; jres++)
@@ -774,27 +774,27 @@ namespace Project19 {
 					}
 
 				}
-				//если не цифры
+				//РµСЃР»Рё РЅРµ С†РёС„СЂС‹
 				catch (Exception^ ex)
 				{
-					MessageBox::Show("В таблице есть НЕ цифры!!");
+					MessageBox::Show("Р’ С‚Р°Р±Р»РёС†Рµ РµСЃС‚СЊ РќР• С†РёС„СЂС‹!!");
 				}
 			}
-			else MessageBox::Show("Нельзя умножить, размеры не подходят");
+			else MessageBox::Show("РќРµР»СЊР·СЏ СѓРјРЅРѕР¶РёС‚СЊ, СЂР°Р·РјРµСЂС‹ РЅРµ РїРѕРґС…РѕРґСЏС‚");
 		}
-		else MessageBox::Show("Сначала очистите матрицу-результат!");
+		else MessageBox::Show("РЎРЅР°С‡Р°Р»Р° РѕС‡РёСЃС‚РёС‚Рµ РјР°С‚СЂРёС†Сѓ-СЂРµР·СѓР»СЊС‚Р°С‚!");
 	}
 
-		   //Очистка результирующей таблицы
+		   //РћС‡РёСЃС‚РєР° СЂРµР·СѓР»СЊС‚РёСЂСѓСЋС‰РµР№ С‚Р°Р±Р»РёС†С‹
 	private: System::Void btnRemoveAll_Click(System::Object^ sender, System::EventArgs^ e) 
 	{
-		//пока есть столбцы
+		//РїРѕРєР° РµСЃС‚СЊ СЃС‚РѕР»Р±С†С‹
 		while (grdResult->ColumnCount != 0)
 		{
-			//если нет столбцов
+			//РµСЃР»Рё РЅРµС‚ СЃС‚РѕР»Р±С†РѕРІ
 			if (!grdResult->ColumnCount)
 			{
-				MessageBox::Show("В таблице нет столбцов!");
+				MessageBox::Show("Р’ С‚Р°Р±Р»РёС†Рµ РЅРµС‚ СЃС‚РѕР»Р±С†РѕРІ!");
 				return;
 			}
 
@@ -809,7 +809,7 @@ namespace Project19 {
 					}
 					catch (...)
 					{
-						MessageBox::Show("Не могу удалить столбец");
+						MessageBox::Show("РќРµ РјРѕРіСѓ СѓРґР°Р»РёС‚СЊ СЃС‚РѕР»Р±РµС†");
 					}
 				}
 			}
@@ -833,31 +833,31 @@ namespace Project19 {
 					}
 					catch (...)
 					{
-						MessageBox::Show("Не могу удалить столбец");
+						MessageBox::Show("РќРµ РјРѕРіСѓ СѓРґР°Р»РёС‚СЊ СЃС‚РѕР»Р±РµС†");
 					}
 				}
-				else MessageBox::Show("Выберите столбцы для удаления");
+				else MessageBox::Show("Р’С‹Р±РµСЂРёС‚Рµ СЃС‚РѕР»Р±С†С‹ РґР»СЏ СѓРґР°Р»РµРЅРёСЏ");
 			}
 		}
 	}
 
-		   //Сложить матрицы/векторы
+		   //РЎР»РѕР¶РёС‚СЊ РјР°С‚СЂРёС†С‹/РІРµРєС‚РѕСЂС‹
 	private: System::Void btnPlus_Click(System::Object^ sender, System::EventArgs^ e) 
 	{
-		//проверяем пуста ли результирующая таблица
+		//РїСЂРѕРІРµСЂСЏРµРј РїСѓСЃС‚Р° Р»Рё СЂРµР·СѓР»СЊС‚РёСЂСѓСЋС‰Р°СЏ С‚Р°Р±Р»РёС†Р°
 		if (grdResult->ColumnCount == 0)
 		{
-			//Складывать можно только матрицы/векторы одинаковой размерности
+			//РЎРєР»Р°РґС‹РІР°С‚СЊ РјРѕР¶РЅРѕ С‚РѕР»СЊРєРѕ РјР°С‚СЂРёС†С‹/РІРµРєС‚РѕСЂС‹ РѕРґРёРЅР°РєРѕРІРѕР№ СЂР°Р·РјРµСЂРЅРѕСЃС‚Рё
 			if ((grdMatrix->ColumnCount == grdVector->ColumnCount) && (grdMatrix->RowCount == grdVector->RowCount))
 			{
-				addAll(); //создаем результирующую матрицу
+				addAll(); //СЃРѕР·РґР°РµРј СЂРµР·СѓР»СЊС‚РёСЂСѓСЋС‰СѓСЋ РјР°С‚СЂРёС†Сѓ
 				int S1 = 0;
 				int S2 = 0;
 				int Sum = 0;
-				//если цифры
+				//РµСЃР»Рё С†РёС„СЂС‹
 				try
 				{
-					//заполняем результирющую таблицу
+					//Р·Р°РїРѕР»РЅСЏРµРј СЂРµР·СѓР»СЊС‚РёСЂСЋС‰СѓСЋ С‚Р°Р±Р»РёС†Сѓ
 					for (int ires = 0; ires < this->grdResult->RowCount; ires++)
 					{
 						for (int jres = 0; jres < this->grdResult->ColumnCount; jres++)
@@ -869,34 +869,34 @@ namespace Project19 {
 						}
 					}
 				}
-				//если не цифры
+				//РµСЃР»Рё РЅРµ С†РёС„СЂС‹
 				catch (Exception^ ex)
 				{
-					MessageBox::Show("В таблице есть НЕ цифры!!");
+					MessageBox::Show("Р’ С‚Р°Р±Р»РёС†Рµ РµСЃС‚СЊ РќР• С†РёС„СЂС‹!!");
 				}
 			}
-			else MessageBox::Show("Нельзя сложить, размеры не подходят");
+			else MessageBox::Show("РќРµР»СЊР·СЏ СЃР»РѕР¶РёС‚СЊ, СЂР°Р·РјРµСЂС‹ РЅРµ РїРѕРґС…РѕРґСЏС‚");
 		}
-		else MessageBox::Show("Сначала очистите матрицу-результат!");
+		else MessageBox::Show("РЎРЅР°С‡Р°Р»Р° РѕС‡РёСЃС‚РёС‚Рµ РјР°С‚СЂРёС†Сѓ-СЂРµР·СѓР»СЊС‚Р°С‚!");
 	}
 
-		   //Вычесть из левой таблицы правую
+		   //Р’С‹С‡РµСЃС‚СЊ РёР· Р»РµРІРѕР№ С‚Р°Р±Р»РёС†С‹ РїСЂР°РІСѓСЋ
 	private: System::Void btnMinus_Click(System::Object^ sender, System::EventArgs^ e) 
 	{
-		//проверим пуста ли таблица-результат
+		//РїСЂРѕРІРµСЂРёРј РїСѓСЃС‚Р° Р»Рё С‚Р°Р±Р»РёС†Р°-СЂРµР·СѓР»СЊС‚Р°С‚
 		if (grdResult->ColumnCount == 0)
 		{
-			//Вычитать можно только матрицы/векторы одинаковой размерности
+			//Р’С‹С‡РёС‚Р°С‚СЊ РјРѕР¶РЅРѕ С‚РѕР»СЊРєРѕ РјР°С‚СЂРёС†С‹/РІРµРєС‚РѕСЂС‹ РѕРґРёРЅР°РєРѕРІРѕР№ СЂР°Р·РјРµСЂРЅРѕСЃС‚Рё
 			if ((grdMatrix->ColumnCount == grdVector->ColumnCount) && (grdMatrix->RowCount == grdVector->RowCount))
 			{
-				addAll(); //создаем таблицу-результат
+				addAll(); //СЃРѕР·РґР°РµРј С‚Р°Р±Р»РёС†Сѓ-СЂРµР·СѓР»СЊС‚Р°С‚
 				int S1 = 0;
 				int S2 = 0;
 				int Sum = 0;
-				//если цифры
+				//РµСЃР»Рё С†РёС„СЂС‹
 				try
 				{
-					//заполняем результирующую таблицу
+					//Р·Р°РїРѕР»РЅСЏРµРј СЂРµР·СѓР»СЊС‚РёСЂСѓСЋС‰СѓСЋ С‚Р°Р±Р»РёС†Сѓ
 					for (int ires = 0; ires < this->grdResult->RowCount; ires++)
 					{
 						for (int jres = 0; jres < this->grdResult->ColumnCount; jres++)
@@ -908,37 +908,37 @@ namespace Project19 {
 						}
 					}
 				}
-				//если не цифры
+				//РµСЃР»Рё РЅРµ С†РёС„СЂС‹
 				catch (Exception^ ex)
 				{
-					MessageBox::Show("В таблице что-то введено не так!!");
+					MessageBox::Show("Р’ С‚Р°Р±Р»РёС†Рµ С‡С‚Рѕ-С‚Рѕ РІРІРµРґРµРЅРѕ РЅРµ С‚Р°Рє!!");
 				}
 			}
-			else MessageBox::Show("Нельзя вычесть, размеры не подходят");
+			else MessageBox::Show("РќРµР»СЊР·СЏ РІС‹С‡РµСЃС‚СЊ, СЂР°Р·РјРµСЂС‹ РЅРµ РїРѕРґС…РѕРґСЏС‚");
 		}
-		else MessageBox::Show("Сначала очистите матрицу-результат!");
+		else MessageBox::Show("РЎРЅР°С‡Р°Р»Р° РѕС‡РёСЃС‚РёС‚Рµ РјР°С‚СЂРёС†Сѓ-СЂРµР·СѓР»СЊС‚Р°С‚!");
 	}
 
-		   //метод для очистки полей
-		   void ClearAll() {//очистка полей
-			   this->txtNumber->Text = "";	   //число для умножения
-			   this->txtOutputScal->Text = ""; //скалярное
-			   this->txtOutputOpr->Text = "";  //определитель
-			   this->txtOutputRank->Text = ""; //ранг
+		   //РјРµС‚РѕРґ РґР»СЏ РѕС‡РёСЃС‚РєРё РїРѕР»РµР№
+		   void ClearAll() {//РѕС‡РёСЃС‚РєР° РїРѕР»РµР№
+			   this->txtNumber->Text = "";	   //С‡РёСЃР»Рѕ РґР»СЏ СѓРјРЅРѕР¶РµРЅРёСЏ
+			   this->txtOutputScal->Text = ""; //СЃРєР°Р»СЏСЂРЅРѕРµ
+			   this->txtOutputOpr->Text = "";  //РѕРїСЂРµРґРµР»РёС‚РµР»СЊ
+			   this->txtOutputRank->Text = ""; //СЂР°РЅРі
 		   }
 
-		   //посчитать скалярное произведение векторов
+		   //РїРѕСЃС‡РёС‚Р°С‚СЊ СЃРєР°Р»СЏСЂРЅРѕРµ РїСЂРѕРёР·РІРµРґРµРЅРёРµ РІРµРєС‚РѕСЂРѕРІ
 	private: System::Void btnScalar_Click(System::Object^ sender, System::EventArgs^ e) 
 	{
-		//одинаковая размерность, матрицы с 1ой строкой (grdMatrix->RowCount == 2, 
-		//потому что если попробуете заполнить вторую строку, автоматически добавится 3, и их будет уже 3)
+		//РѕРґРёРЅР°РєРѕРІР°СЏ СЂР°Р·РјРµСЂРЅРѕСЃС‚СЊ, РјР°С‚СЂРёС†С‹ СЃ 1РѕР№ СЃС‚СЂРѕРєРѕР№ (grdMatrix->RowCount == 2, 
+		//РїРѕС‚РѕРјСѓ С‡С‚Рѕ РµСЃР»Рё РїРѕРїСЂРѕР±СѓРµС‚Рµ Р·Р°РїРѕР»РЅРёС‚СЊ РІС‚РѕСЂСѓСЋ СЃС‚СЂРѕРєСѓ, Р°РІС‚РѕРјР°С‚РёС‡РµСЃРєРё РґРѕР±Р°РІРёС‚СЃСЏ 3, Рё РёС… Р±СѓРґРµС‚ СѓР¶Рµ 3)
 		if ((grdMatrix->ColumnCount == grdVector->ColumnCount) && (grdMatrix->RowCount == 2) && (grdVector->RowCount == 2))
 		{
-			ClearAll(); //очистка всех полей
+			ClearAll(); //РѕС‡РёСЃС‚РєР° РІСЃРµС… РїРѕР»РµР№
 			int S1 = 0;
 			int S2 = 0;
 			int Sum = 0;
-			//если цифры
+			//РµСЃР»Рё С†РёС„СЂС‹
 			try
 			{
 				for (int ires = 0; ires < this->grdMatrix->ColumnCount; ires++)
@@ -947,28 +947,28 @@ namespace Project19 {
 					S2 = Convert::ToInt32(grdVector->Rows[0]->Cells[ires]->Value);
 					Sum += S1 * S2;
 				}
-				this->txtOutputScal->Text = System::Convert::ToString(Sum); //записываем в поле вывода
+				this->txtOutputScal->Text = System::Convert::ToString(Sum); //Р·Р°РїРёСЃС‹РІР°РµРј РІ РїРѕР»Рµ РІС‹РІРѕРґР°
 			}
-			//если не цифры
+			//РµСЃР»Рё РЅРµ С†РёС„СЂС‹
 			catch (Exception^ ex)
 			{
-				MessageBox::Show("В таблицах неправильные данные!!");
+				MessageBox::Show("Р’ С‚Р°Р±Р»РёС†Р°С… РЅРµРїСЂР°РІРёР»СЊРЅС‹Рµ РґР°РЅРЅС‹Рµ!!");
 			}
 		}
-		else MessageBox::Show("Нельзя найти скалярное произведение, неправильно введены вектора или есть лишние строки");
+		else MessageBox::Show("РќРµР»СЊР·СЏ РЅР°Р№С‚Рё СЃРєР°Р»СЏСЂРЅРѕРµ РїСЂРѕРёР·РІРµРґРµРЅРёРµ, РЅРµРїСЂР°РІРёР»СЊРЅРѕ РІРІРµРґРµРЅС‹ РІРµРєС‚РѕСЂР° РёР»Рё РµСЃС‚СЊ Р»РёС€РЅРёРµ СЃС‚СЂРѕРєРё");
 	}
 
-		   //векторное произведение //!только для 3 координат!
+		   //РІРµРєС‚РѕСЂРЅРѕРµ РїСЂРѕРёР·РІРµРґРµРЅРёРµ //!С‚РѕР»СЊРєРѕ РґР»СЏ 3 РєРѕРѕСЂРґРёРЅР°С‚!
 	private: System::Void btnVector_Click(System::Object^ sender, System::EventArgs^ e) 
 	{
-		//если результиркющая таблица пуста
+		//РµСЃР»Рё СЂРµР·СѓР»СЊС‚РёСЂРєСЋС‰Р°СЏ С‚Р°Р±Р»РёС†Р° РїСѓСЃС‚Р°
 		if (grdResult->ColumnCount == 0)
 		{
-			//векторное произведение существует только для 3 координат, вектор
+			//РІРµРєС‚РѕСЂРЅРѕРµ РїСЂРѕРёР·РІРµРґРµРЅРёРµ СЃСѓС‰РµСЃС‚РІСѓРµС‚ С‚РѕР»СЊРєРѕ РґР»СЏ 3 РєРѕРѕСЂРґРёРЅР°С‚, РІРµРєС‚РѕСЂ
 			if ((grdMatrix->ColumnCount == 3) && (grdMatrix->ColumnCount == grdVector->ColumnCount) && (grdMatrix->RowCount == 2) && (grdVector->RowCount == 2))
 			{
-				addAll(); //создаем результирующую таблицу
-				//если цифры
+				addAll(); //СЃРѕР·РґР°РµРј СЂРµР·СѓР»СЊС‚РёСЂСѓСЋС‰СѓСЋ С‚Р°Р±Р»РёС†Сѓ
+				//РµСЃР»Рё С†РёС„СЂС‹
 				try
 				{
 					int ax = Convert::ToInt32(grdMatrix->Rows[0]->Cells[0]->Value);
@@ -983,24 +983,24 @@ namespace Project19 {
 					grdResult->Rows[0]->Cells[1]->Value = Convert::ToInt32(az * bx - ax * bz);
 					grdResult->Rows[0]->Cells[2]->Value = Convert::ToInt32(ax * by - ay * bx);
 				}
-				//если не цифры
+				//РµСЃР»Рё РЅРµ С†РёС„СЂС‹
 				catch (Exception^ ex)
 				{
-					MessageBox::Show("В таблицах неправильные данные!!");
+					MessageBox::Show("Р’ С‚Р°Р±Р»РёС†Р°С… РЅРµРїСЂР°РІРёР»СЊРЅС‹Рµ РґР°РЅРЅС‹Рµ!!");
 				}
 			}
-			else MessageBox::Show("Нельзя найти векторное произведение, неправильно введены векторы");
+			else MessageBox::Show("РќРµР»СЊР·СЏ РЅР°Р№С‚Рё РІРµРєС‚РѕСЂРЅРѕРµ РїСЂРѕРёР·РІРµРґРµРЅРёРµ, РЅРµРїСЂР°РІРёР»СЊРЅРѕ РІРІРµРґРµРЅС‹ РІРµРєС‚РѕСЂС‹");
 		}
-		else MessageBox::Show("Сначала очистите матрицу-результат!");
+		else MessageBox::Show("РЎРЅР°С‡Р°Р»Р° РѕС‡РёСЃС‚РёС‚Рµ РјР°С‚СЂРёС†Сѓ-СЂРµР·СѓР»СЊС‚Р°С‚!");
 	}
 
-		   //транспонировать левую матрицу
+		   //С‚СЂР°РЅСЃРїРѕРЅРёСЂРѕРІР°С‚СЊ Р»РµРІСѓСЋ РјР°С‚СЂРёС†Сѓ
 	private: System::Void btnTrans_Click(System::Object^ sender, System::EventArgs^ e) 
 	{
-		//если результирующая матрица пуста
+		//РµСЃР»Рё СЂРµР·СѓР»СЊС‚РёСЂСѓСЋС‰Р°СЏ РјР°С‚СЂРёС†Р° РїСѓСЃС‚Р°
 		if (grdResult->ColumnCount == 0)
 		{
-			//создадим место для транспонированного результата
+			//СЃРѕР·РґР°РґРёРј РјРµСЃС‚Рѕ РґР»СЏ С‚СЂР°РЅСЃРїРѕРЅРёСЂРѕРІР°РЅРЅРѕРіРѕ СЂРµР·СѓР»СЊС‚Р°С‚Р°
 			int indexColumn = 0;
 			int indexRow = 0;
 			while (indexColumn < grdMatrix->RowCount-1)
@@ -1018,11 +1018,11 @@ namespace Project19 {
 			int S1 = 0;
 			int S2 = 0;
 			int Sum = 0;
-			int ColumnNumber = 0;   //Столбец
-			//если цифры
+			int ColumnNumber = 0;   //РЎС‚РѕР»Р±РµС†
+			//РµСЃР»Рё С†РёС„СЂС‹
 			try
 			{
-				//заполняем результирующую таблицу
+				//Р·Р°РїРѕР»РЅСЏРµРј СЂРµР·СѓР»СЊС‚РёСЂСѓСЋС‰СѓСЋ С‚Р°Р±Р»РёС†Сѓ
 				for (int ires = 0; ires < this->grdMatrix->RowCount-1; ires++)
 				{
 					for (int jres = 0; jres < this->grdMatrix->ColumnCount; jres++)
@@ -1032,20 +1032,20 @@ namespace Project19 {
 					}
 				}
 			}
-			//если не цифры
+			//РµСЃР»Рё РЅРµ С†РёС„СЂС‹
 			catch (Exception^ ex)
 			{
-				MessageBox::Show("В таблицу введены неверные параметры!!");
+				MessageBox::Show("Р’ С‚Р°Р±Р»РёС†Сѓ РІРІРµРґРµРЅС‹ РЅРµРІРµСЂРЅС‹Рµ РїР°СЂР°РјРµС‚СЂС‹!!");
 			}
 		}
-		else MessageBox::Show("Сначала очистите матрицу-результат!");
+		else MessageBox::Show("РЎРЅР°С‡Р°Р»Р° РѕС‡РёСЃС‚РёС‚Рµ РјР°С‚СЂРёС†Сѓ-СЂРµР·СѓР»СЊС‚Р°С‚!");
 	}
 
-		   // Рекурсивное вычисление определителя
-		   int det(int** array, int ColCount) { //массив и количество столбцов 
-			   //(определитель только у квадратной матрицы)
+		   // Р РµРєСѓСЂСЃРёРІРЅРѕРµ РІС‹С‡РёСЃР»РµРЅРёРµ РѕРїСЂРµРґРµР»РёС‚РµР»СЏ
+		   int det(int** array, int ColCount) { //РјР°СЃСЃРёРІ Рё РєРѕР»РёС‡РµСЃС‚РІРѕ СЃС‚РѕР»Р±С†РѕРІ 
+			   //(РѕРїСЂРµРґРµР»РёС‚РµР»СЊ С‚РѕР»СЊРєРѕ Сѓ РєРІР°РґСЂР°С‚РЅРѕР№ РјР°С‚СЂРёС†С‹)
 			   int i, j, result, k, n;
-			   int** p; // вспомогательный массив
+			   int** p; // РІСЃРїРѕРјРѕРіР°С‚РµР»СЊРЅС‹Р№ РјР°СЃСЃРёРІ
 			   p = new int* [ColCount];
 
 			   for (i = 0; i < ColCount; i++)
@@ -1055,44 +1055,44 @@ namespace Project19 {
 
 			   j = 0; 
 			   result = 0;
-			   k = 1; //(-1) в степени i
+			   k = 1; //(-1) РІ СЃС‚РµРїРµРЅРё i
 			   n = ColCount - 1;
 
-			   //если вообще не матрица и неправильный ввод
+			   //РµСЃР»Рё РІРѕРѕР±С‰Рµ РЅРµ РјР°С‚СЂРёС†Р° Рё РЅРµРїСЂР°РІРёР»СЊРЅС‹Р№ РІРІРѕРґ
 			   if (ColCount < 1) 
 			   {
 				   return INT_MIN;
 			   }
 
-			   //если это 1*1 матрица
+			   //РµСЃР»Рё СЌС‚Рѕ 1*1 РјР°С‚СЂРёС†Р°
 			   if (ColCount == 1) 
 			   {
 				   result = array[0][0];
 				   return(result);
 			   }
 
-			   //если это матрица 2*2
+			   //РµСЃР»Рё СЌС‚Рѕ РјР°С‚СЂРёС†Р° 2*2
 			   if (ColCount == 2) 
 			   {
 				   result = array[0][0] * array[1][1] - (array[1][0] * array[0][1]);
 				   return(result);
 			   }
 
-			   //если это порядком выше, чем 2*2, матрица
+			   //РµСЃР»Рё СЌС‚Рѕ РїРѕСЂСЏРґРєРѕРј РІС‹С€Рµ, С‡РµРј 2*2, РјР°С‚СЂРёС†Р°
 			   if (ColCount > 2) 
 			   {
 				   for (i = 0; i < ColCount; i++) 
 				   {
-					   int k1, k2, d1, d2; //вспомогательные индексы
+					   int k1, k2, d1, d2; //РІСЃРїРѕРјРѕРіР°С‚РµР»СЊРЅС‹Рµ РёРЅРґРµРєСЃС‹
 					   d1 = 0;
 
 					   for (k1 = 0; k1 < ColCount - 1; k1++) 
-					   { // проверка индекса строки
+					   { // РїСЂРѕРІРµСЂРєР° РёРЅРґРµРєСЃР° СЃС‚СЂРѕРєРё
 						   if (k1 == i) d1 = 1;
 						   d2 = 0;
 
 						   for (k2 = 0; k2 < ColCount - 1; k2++) 
-						   { // проверка индекса столбца
+						   { // РїСЂРѕРІРµСЂРєР° РёРЅРґРµРєСЃР° СЃС‚РѕР»Р±С†Р°
 							   if (k2 == 0) d2 = 1;
 							   p[k1][k2] = array[k1 + d1][k2 + d2];
 						   }
@@ -1105,28 +1105,28 @@ namespace Project19 {
 			   return(result);
 		   }
 
-		   //найти определитель левой таблицы
+		   //РЅР°Р№С‚Рё РѕРїСЂРµРґРµР»РёС‚РµР»СЊ Р»РµРІРѕР№ С‚Р°Р±Р»РёС†С‹
 	private: System::Void btnOpred_Click(System::Object^ sender, System::EventArgs^ e) 
 	{
-		//если она квадратная
+		//РµСЃР»Рё РѕРЅР° РєРІР°РґСЂР°С‚РЅР°СЏ
 		if (grdMatrix->ColumnCount == grdMatrix->RowCount-1)
 		{
-			ClearAll(); //очищаем все поля для ответов
+			ClearAll(); //РѕС‡РёС‰Р°РµРј РІСЃРµ РїРѕР»СЏ РґР»СЏ РѕС‚РІРµС‚РѕРІ
 
-			//если цифры
+			//РµСЃР»Рё С†РёС„СЂС‹
 			try
 			{
-				int n = System::Convert::ToInt64(grdMatrix->ColumnCount); //это квадратная матрица, поэтому
-				int m = System::Convert::ToInt64(grdMatrix->ColumnCount); //можно взять значение количества столбцов
+				int n = System::Convert::ToInt64(grdMatrix->ColumnCount); //СЌС‚Рѕ РєРІР°РґСЂР°С‚РЅР°СЏ РјР°С‚СЂРёС†Р°, РїРѕСЌС‚РѕРјСѓ
+				int m = System::Convert::ToInt64(grdMatrix->ColumnCount); //РјРѕР¶РЅРѕ РІР·СЏС‚СЊ Р·РЅР°С‡РµРЅРёРµ РєРѕР»РёС‡РµСЃС‚РІР° СЃС‚РѕР»Р±С†РѕРІ
 
-				int** array = new int* [n]; //создаем динамический массив
+				int** array = new int* [n]; //СЃРѕР·РґР°РµРј РґРёРЅР°РјРёС‡РµСЃРєРёР№ РјР°СЃСЃРёРІ
 
 				for (int i = 0; i < this->grdMatrix->ColumnCount; i++)
 				{
 					array[i] = new int[m];
 				}
 
-				//заполняем массив
+				//Р·Р°РїРѕР»РЅСЏРµРј РјР°СЃСЃРёРІ
 				for (int i = 0; i < this->grdMatrix->ColumnCount; i++)
 				{
 					for (int j = 0; j < this->grdMatrix->ColumnCount; j++)
@@ -1135,34 +1135,34 @@ namespace Project19 {
 					}
 				}
 
-				//вызываем рекурсию и проверяем, что возвращенное значение верное
+				//РІС‹Р·С‹РІР°РµРј СЂРµРєСѓСЂСЃРёСЋ Рё РїСЂРѕРІРµСЂСЏРµРј, С‡С‚Рѕ РІРѕР·РІСЂР°С‰РµРЅРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ РІРµСЂРЅРѕРµ
 				if (det(array, n) != INT_MIN)
 				{
-					this->txtOutputOpr->Text = System::Convert::ToString(det(array, n)); //записываем в поле вывода
+					this->txtOutputOpr->Text = System::Convert::ToString(det(array, n)); //Р·Р°РїРёСЃС‹РІР°РµРј РІ РїРѕР»Рµ РІС‹РІРѕРґР°
 				}
 			}
-			//если не цифры
+			//РµСЃР»Рё РЅРµ С†РёС„СЂС‹
 			catch (Exception^ ex)
 			{
-				MessageBox::Show("В таблицу введены неверные параметры!!");
+				MessageBox::Show("Р’ С‚Р°Р±Р»РёС†Сѓ РІРІРµРґРµРЅС‹ РЅРµРІРµСЂРЅС‹Рµ РїР°СЂР°РјРµС‚СЂС‹!!");
 			}
 		}
-		else MessageBox::Show("Это не квадратная матрица!");
+		else MessageBox::Show("Р­С‚Рѕ РЅРµ РєРІР°РґСЂР°С‚РЅР°СЏ РјР°С‚СЂРёС†Р°!");
 	}
 
-		   //метод подсчета ранга матрицы
+		   //РјРµС‚РѕРґ РїРѕРґСЃС‡РµС‚Р° СЂР°РЅРіР° РјР°С‚СЂРёС†С‹
 		   int findRank(int** matrix, int i, int j)
 		   {
 			   int r = 0;
 			   int q = 1;
 
-			   while (q <= std::min(i, j)) // проверка: порядок матрицы меньше или равен минимальному из размеров матрицы?
-			   { // если да
-				   int** B = new int* [q]; // создаем новую матрицу размера q
+			   while (q <= std::min(i, j)) // РїСЂРѕРІРµСЂРєР°: РїРѕСЂСЏРґРѕРє РјР°С‚СЂРёС†С‹ РјРµРЅСЊС€Рµ РёР»Рё СЂР°РІРµРЅ РјРёРЅРёРјР°Р»СЊРЅРѕРјСѓ РёР· СЂР°Р·РјРµСЂРѕРІ РјР°С‚СЂРёС†С‹?
+			   { // РµСЃР»Рё РґР°
+				   int** B = new int* [q]; // СЃРѕР·РґР°РµРј РЅРѕРІСѓСЋ РјР°С‚СЂРёС†Сѓ СЂР°Р·РјРµСЂР° q
 				   for (int w = 0; w < q; ++w)
 					   B[w] = new int[q];
 
-				   for (int array = 0; array < (i - (q - 1)); ++array) // тут начинается перебор матриц q-го порядка
+				   for (int array = 0; array < (i - (q - 1)); ++array) // С‚СѓС‚ РЅР°С‡РёРЅР°РµС‚СЃСЏ РїРµСЂРµР±РѕСЂ РјР°С‚СЂРёС† q-РіРѕ РїРѕСЂСЏРґРєР°
 				   {
 					   for (int b = 0; b < (j - (q - 1)); ++b)
 					   {
@@ -1170,26 +1170,26 @@ namespace Project19 {
 							   for (int d = 0; d < q; ++d)
 								   B[c][d] = matrix[array + c][b + d];
 
-						   if (!(det(B, q) == 0)) // если определитель матрицы отличен от нуля
-						   { // то
-							   r = q; // присваиваем рангу значение q
+						   if (!(det(B, q) == 0)) // РµСЃР»Рё РѕРїСЂРµРґРµР»РёС‚РµР»СЊ РјР°С‚СЂРёС†С‹ РѕС‚Р»РёС‡РµРЅ РѕС‚ РЅСѓР»СЏ
+						   { // С‚Рѕ
+							   r = q; // РїСЂРёСЃРІР°РёРІР°РµРј СЂР°РЅРіСѓ Р·РЅР°С‡РµРЅРёРµ q
 						   }
 					   }
 				   }
-				   q++; // прибавляем 1
+				   q++; // РїСЂРёР±Р°РІР»СЏРµРј 1
 			   }
 			   return r;
 		   }
 
-		   //подсчет ранга левой таблицы
+		   //РїРѕРґСЃС‡РµС‚ СЂР°РЅРіР° Р»РµРІРѕР№ С‚Р°Р±Р»РёС†С‹
 	private: System::Void btnRank_Click(System::Object^ sender, System::EventArgs^ e) 
 	{
-		ClearAll(); //очищаем все поля вывода
-		//если цифры
+		ClearAll(); //РѕС‡РёС‰Р°РµРј РІСЃРµ РїРѕР»СЏ РІС‹РІРѕРґР°
+		//РµСЃР»Рё С†РёС„СЂС‹
 		try
 		{
-			int n = System::Convert::ToInt64(this->grdMatrix->RowCount-1); //количество строк
-			int m = System::Convert::ToInt64(this->grdMatrix->ColumnCount); //количество столбцов
+			int n = System::Convert::ToInt64(this->grdMatrix->RowCount-1); //РєРѕР»РёС‡РµСЃС‚РІРѕ СЃС‚СЂРѕРє
+			int m = System::Convert::ToInt64(this->grdMatrix->ColumnCount); //РєРѕР»РёС‡РµСЃС‚РІРѕ СЃС‚РѕР»Р±С†РѕРІ
 
 			int** array = new int* [n];
 
@@ -1198,7 +1198,7 @@ namespace Project19 {
 				array[i] = new int[m];
 			}
 
-			//заполняем массив элементами таблицы
+			//Р·Р°РїРѕР»РЅСЏРµРј РјР°СЃСЃРёРІ СЌР»РµРјРµРЅС‚Р°РјРё С‚Р°Р±Р»РёС†С‹
 			for (int i = 0; i < this->grdMatrix->RowCount-1; i++) 
 			{
 				for (int j = 0; j < this->grdMatrix->ColumnCount; j++) 
@@ -1207,14 +1207,14 @@ namespace Project19 {
 				}
 			}
 
-			//ищем ранг
+			//РёС‰РµРј СЂР°РЅРі
 			int sum = findRank(array, n, m);
-			this->txtOutputRank->Text = System::Convert::ToString(sum); //записываем в поле для вывода
+			this->txtOutputRank->Text = System::Convert::ToString(sum); //Р·Р°РїРёСЃС‹РІР°РµРј РІ РїРѕР»Рµ РґР»СЏ РІС‹РІРѕРґР°
 		}
-		//если не цифры
+		//РµСЃР»Рё РЅРµ С†РёС„СЂС‹
 		catch (Exception^ ex)
 		{
-			MessageBox::Show("В таблицу введены неверные параметры!!");
+			MessageBox::Show("Р’ С‚Р°Р±Р»РёС†Сѓ РІРІРµРґРµРЅС‹ РЅРµРІРµСЂРЅС‹Рµ РїР°СЂР°РјРµС‚СЂС‹!!");
 		}
 	}
 };
